@@ -1,0 +1,21 @@
+.form__button{
+    background: var(--blue);
+    border-radius: 1.5rem;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 1rem;
+    padding: 1rem 2rem;
+}
+
+.form__button:hover{
+    background: var(--light-blue);
+}
+
+@media screen and (max-width: 375px) {
+    .form__button{
+        margin-top: 1rem;
+        margin-left: 0;
+        width: 90%;
+    }
+}

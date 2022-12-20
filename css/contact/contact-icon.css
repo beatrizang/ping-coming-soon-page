@@ -1,0 +1,25 @@
+.contact__icon{
+    border: 1px solid var(--gray);
+    border-radius: 50%;
+    color: var(--blue);
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.contact__icon:hover{
+    background: var(--blue);
+    border: 1px solid var(--blue);
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.contact__icon__fb{
+    padding: 0.5rem 0.8rem;
+}
+
+.contact__icon__ig{
+    padding: 0.5rem 0.6rem;
+}
+

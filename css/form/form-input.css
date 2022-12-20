@@ -1,0 +1,17 @@
+.form__input{
+    border: 1px solid var(--pale-blue);
+    border-radius: 2rem;
+    outline: none;
+    padding: 1rem;
+    width: 25%;
+}
+
+.form__input::placeholder{
+    color: var(--pale-blue);
+}
+
+@media screen and (max-width: 375px) {
+    .form__input{
+        width: 80%;
+    }
+}

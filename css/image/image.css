@@ -1,0 +1,10 @@
+.image{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image__ppal{
+    width: 40%;
+}
